@@ -14,21 +14,27 @@ The Application offers 3 key functionalities:
 2. Enable users to track their vaccine side-effects using useful analytics as well as crowdsource data for improving the accuracy of the central ML model.
 3. Provide global data analytics and insights about vaccination side effects
 
-![Horizontal Federated Learning Algorithm](https://i.postimg.cc/kMjKhx8d/Screenshot-2021-02-28-at-7-05-49-AM.png)
+![Horizontal Federated Learning Algorithm](https://i.postimg.cc/28H4KgqG/Screenshot-2021-02-28-at-9-25-33-AM.png)
 
 
 # How we built it
+The pipeline is explained by the diagram above. The communication between the local model and the global mode is made with the help of 2 Flask APIs in the backend. Firstly, the Global Model API fetches the model weights, which is hosted on the SAP Cloud Platform. Secondly, another Flask API calls the local model, initializes the weights from the Global Model and finally returns the predictions.
+
 Tech Stack: 
-   **Machine Learning**: Tensorflow, Keras
-   **Web App**: JavaScript, Flask, Python
-   **UI**: SAP UI5 Framework based on Fiori Guidelines 
-   **Maintaining User Privacy and Anonymity**: Using Federated Horizontal Learning & Deep Neural Network
+   **Machine Learning**: Tensorflow, Keras.  
+   **Web App**: JavaScript, Flask, Python.  
+   **UI**: SAP UI5 Framework based on Fiori Guidelines    
+   **Maintaining User Privacy and Anonymity**: Using Federated Horizontal Learning & Deep Neural Network.   
+
+![System Architecture](https://i.postimg.cc/2SSfzLSm/Screenshot-2021-02-28-at-9-39-19-AM.png)
 
 # Challenges we ran into
    - Finding the right dataset to train our models
    - The datasets are very recent (1 Month old) and hence with no documentation or metadata
    - Data Preprocessing, cleaning and extracting useful insights
    - Integrating the Central Machine Learning model hosted on the cloud,  to the locally hosted machine learning model  (Updating the model weights with the new gradients. _Refer to horizontal federated learning_)
+
+![Neural Network](https://i.postimg.cc/9fv3txtF/Screenshot-2021-02-28-at-9-39-26-AM.png)
     
 # Accomplishments that we're proud of
    - Predicting side-effects on new users, with high accuracy for the federated model (Compared to a traditional model trained on a completely centralised dataset)
@@ -36,6 +42,7 @@ Tech Stack:
    - Deploying an entire ML-based application to the SAP Cloud Platform with client-side integrations 
    - Understanding about the state-of-the-art method Horizontal Federated    
 
+![Federated Learning](https://i.postimg.cc/SQL0CfXk/Screenshot-2021-02-28-at-9-39-33-AM.png)
 
 # What we learned
    - We learned how to use the SAP UI5 framework for building responsive application following the Fiori guidelines. 
@@ -74,6 +81,7 @@ Tech Stack:
 
 **To run the UI5 Web App Application:**
 1. Execute  `ui5 serve  -o  /index.html`
+
 **To run flask backend:**
 1. Execute `FLASK_APP=model.py flask run`
 
