@@ -49,6 +49,7 @@ Tech Stack:
   - We deployed our entire application on the SAP Cloud Platform, leveraging its robust infrastructure and platform for application development
  - Staying awake for 24 hours (_I am writing this at the 23rd hour of the Hackathon XD_)
 
+![Jupyter Notebooks](https://i.postimg.cc/Y9qFR3pZ/Screenshot-2021-02-28-at-9-47-24-AM.png)
 
 # What's next for VaccineTogether
 - Increase the acceptance rate of our application to get more data
@@ -56,7 +57,7 @@ Tech Stack:
 - Vaccine Cold chain integration with SAP Ariba and SAP S4HANA.  
 
 
-# Screenshots
+# Screenshots (UI5 App)
 ![Screenshot 1](https://i.postimg.cc/63fLQgy7/Screenshot-2021-02-28-at-1-00-41-AM.png)
 ![Screenshot 2](https://i.postimg.cc/fLCmsdrm/Screenshot-2021-02-28-at-2-31-08-AM.png)
 ![Screenshot 3](https://i.postimg.cc/SKWcZ3LZ/Screenshot-2021-02-28-at-2-24-01-AM.png)
