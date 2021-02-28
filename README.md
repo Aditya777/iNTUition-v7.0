@@ -54,6 +54,14 @@ Tech Stack:
 ![Screenshot 2](https://i.postimg.cc/fLCmsdrm/Screenshot-2021-02-28-at-2-31-08-AM.png)
 ![Screenshot 3](https://i.postimg.cc/SKWcZ3LZ/Screenshot-2021-02-28-at-2-24-01-AM.png)
 
+# Full Presentation 
+> Feel free to watch the full presentation to get a more in-depth overview of our product.
+> The trimmed 4-min version is available at the top of our DevPost page.
+
+[![Full Presentation](https://img.youtube.com/vi/h6FXRUR_CCA/0.jpg)](https://youtu.be/h6FXRUR_CCA)
+
+# Team Photo
+![Team Photo](https://i.postimg.cc/QdPvh9TB/Screenshot-2021-02-28-at-8-52-32-AM.png)
 
 # Installation
 **Steps**:
