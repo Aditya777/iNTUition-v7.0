@@ -94,4 +94,4 @@ The global model is already hosted on the SAP Cloud Platform.
 3. Palak Somani
 4. Aditya Bansal
 
-> Winners for iNTUition v7.0 in SAP's Cloud Track.
+> Winners of iNTUition v7.0 in SAP's Cloud Track.
