@@ -20,7 +20,7 @@ The Application offers 3 key functionalities:
 # How we built it
 The pipeline is explained by the diagram above. The communication between the local model and the global mode is made with the help of 2 Flask APIs in the backend. Firstly, the Global Model API fetches the model weights, which is hosted on the SAP Cloud Platform. Secondly, another Flask API calls the local model, initializes the weights from the Global Model and finally returns the predictions.
 
-Tech Stack: 
+Tech Stack:   
    **Machine Learning**: Tensorflow, Keras.  
    **Web App**: JavaScript, Flask, Python.  
    **UI**: SAP UI5 Framework based on Fiori Guidelines    
@@ -93,3 +93,5 @@ The global model is already hosted on the SAP Cloud Platform.
 2. Ritwik Kanodia
 3. Palak Somani
 4. Aditya Bansal
+
+> Winners for iNTUition v7.0 in SAP's Cloud Track.
